@@ -2,6 +2,7 @@ const request = require('supertest');
 const app = require('./../app');
 
 describe('App test', () => {
+// added something
     it('Home page should return statusCode 200', (done) => {
         request(app)
             .get('/')
