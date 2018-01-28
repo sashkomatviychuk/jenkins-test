@@ -1,0 +1,18 @@
+{
+  "name": "jenkins-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sashkomatviychuk/jenkins-test.git",
+  "author": "Sashko Matviichuk <sashko1921@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^5.0.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./tests/*.js"
+  }
+}
